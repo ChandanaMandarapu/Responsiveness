@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            background-color: aquamarine;
+            width: 40%;
+            height: 40%;
+        }
+        .child{
+            background-color: purple;
+            width: 20%;
+        }
+        .box2{
+            background-color: orange;
+            width: 50%;
+        }
+        .child2{
+            background-color: rebeccapurple;
+            height: 50vh;
+            width: 50vw;
+        }
+        h1{
+            font-size: 7vmax;
+            /* font-size: 7vmin; */
+        }
+        .parent{
+            background-color: blanchedalmond;
+            font-size: 30px;
+        }
+        h1{
+            font-size: 1em;
+        }
+        h2{
+            font-size: 2em;
+        }
+        h3{
+            font-size: 1.4rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- we use percentages for parent and childs and vw and vh changes according to the viewport of screen avoid using pixels -->
+    <!-- vmax adapts the properties according to the max width and max height it depends on the max size of the screen -->
+    <!-- em it changes the font size according to the parents font size -->
+    <!-- rem is dependent on the screen size-->
+    <div class="box">
+        <div class="child"></div>
+    </div>
+    <div class="box2">
+        <div class="child2"></div>
+    </div>
+    <h1>Im chandana</h1>
+    <div class="parent">
+        <h1>Lorem, ipsum dolor.</h1>
+        <h2>Lorem, ipsum dolor.</h2>
+        <h3>Lorem, ipsum dolor.</h3>
+    </div>
+</body>
+</html>
